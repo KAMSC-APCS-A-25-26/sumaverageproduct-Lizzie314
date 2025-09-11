@@ -22,7 +22,7 @@ public class SumProductAverage
         Scanner inputScanner = new Scanner(System.in);
 
         // Declare variables
-        double num1, num2, num3, sum, prod, avg, quot;
+        double num1, num2, num3, sum, prod, avg;
         int numRuns;
 
         // Signature
@@ -45,13 +45,11 @@ public class SumProductAverage
             sum = num1 + num2 + num3;
             prod = num1 * num2 * num3;
             avg = (num1 + num2 + num3) / 3;
-            quot = num1 / num2 / num3;
 
             // Display the sum, product, average, and quotient of two numbers
             System.out.print("\nThe sum of the three numbers is " + sum);
             System.out.print("\nThe product of the three numbers is " + prod);
             System.out.print("\nThe average of the three numbers is " + avg);
-            System.out.print("\nThe quotient of the three numbers is " + quot + "\n");
         }
 
         // Exit the program
