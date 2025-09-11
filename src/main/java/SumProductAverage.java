@@ -23,8 +23,8 @@ public class SumProductAverage
 
         // Declare variables
         double num1, num2, num3, sum, prod, avg;
-        int numRuns;
-        
+        int numRuns=0;
+
         // Prompt the user for the number of runs
         System.out.print("\nHow many times would you like to run the program?  ");
         numRuns = inputScanner.nextInt();
