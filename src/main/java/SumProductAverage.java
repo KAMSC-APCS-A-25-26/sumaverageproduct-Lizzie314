@@ -33,7 +33,7 @@ public class SumProductAverage
         numRuns = inputScanner.nextInt();
 
         // Repeat program a user-determined number of times
-        for (int j=0; j<numRuns; j++)
+        for (int i = 0; i <numRuns; i++)
         {
             // Prompt the user for two numbers
             System.out.print("\n\nEnter three numbers:  ");
