@@ -24,10 +24,7 @@ public class SumProductAverage
         // Declare variables
         double num1, num2, num3, sum, prod, avg;
         int numRuns;
-
-        // Signature
-        System.out.print("Lizzie\nAP CS A\nLewis 2.2-2.3 Arithmetic\n");
-
+        
         // Prompt the user for the number of runs
         System.out.print("\nHow many times would you like to run the program?  ");
         numRuns = inputScanner.nextInt();
