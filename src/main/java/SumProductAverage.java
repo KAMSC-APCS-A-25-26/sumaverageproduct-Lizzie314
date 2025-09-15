@@ -48,7 +48,7 @@ public class SumProductAverage
             System.out.print("\nThe product of the three numbers is " + prod);
             System.out.print("\nThe average of the three numbers is " + avg);
         }
-
+                
         // Exit the program
         System.out.print("\n\n\n");
         return;
